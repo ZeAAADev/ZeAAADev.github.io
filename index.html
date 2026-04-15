@@ -3,36 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sultan's Armory | Historical Blades</title>
-    
+    <title>Sultan's Armory | Legendary Blades</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div id="header-section" class="nav-bar">
-    <div class="nav-container">
-        <h1 id="main-title">Sultan's Armory</h1>
-        <nav id="main-nav">
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#catalog">Catalog</a></li>
-                <li><a href="#history">History</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-    <p class="description-text">Authentic craftsmanship from the Golden Age.</p>
-    </div>
-
-    <div id="catalog-container">
-        <div class="product-card">
-            <h2>The Shamshir</h2>
-            <p>The "Lion's Claw" – A classic curved saber from the Persian plains.</p> 
-            <span>Price: 750 Gold Coins</span>
-            <br><br>
-            <button class="btn-purchase">View Details</button>
+    <header id="header-section" class="nav-bar">
+        <div class="nav-container">
+            <h1 id="main-title">Sultan's Armory</h1>
+            <nav id="main-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#catalog">Catalog</a></li>
+                    <li><a href="#history">History</a></li>
+                    <li><a href="#contact" class="nav-cta">Get Quote</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Forged in History, Tempered by Legend</h2>
+            <p class="description-text">Discover the finest Damascus steel and historical craftsmanship from across the Islamic world.</p>
+            <div class="hero-btns">
+                <a href="#catalog" class="btn-primary">Explore Collection</a>
+                <a href="#history" class="btn-secondary">Our Heritage</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="catalog" class="section-padding">
+        <h3>The Royal Gallery</h3>
+        <div class="catalog-grid">
+            <div class="product-card">
+                <div class="product-tag">Persian</div>
+                <h2>The Shamshir</h2>
+                <p>The "Lion's Claw" – A classic curved saber known for its agility and razor-sharp edge.</p> 
+                <span class="price">750 Gold Coins</span>
+                <button class="btn-purchase">View Details</button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-tag">Ottoman</div>
+                <h2>The Kilij</h2>
+                <p>The formidable Turkish saber featuring a 'yalman' for devastating cutting power.</p> 
+                <span class="price">820 Gold Coins</span>
+                <button class="btn-purchase">View Details</button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-tag">Legendary</div>
+                <h2>The Zulfiqar</h2>
+                <p>A masterfully crafted representation of the iconic bifurcated blade of history.</p> 
+                <span class="price">1,200 Gold Coins</span>
+                <button class="btn-purchase">View Details</button>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>&copy; 2024 Sultan's Armory. All Rights Reserved.</p>
+    </footer>
 
 </body>
 </html>
