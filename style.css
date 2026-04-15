@@ -52,3 +52,46 @@ body {
     color: #5d5d5d; 
     font-size: 1.1rem;
 }
+
+/* Container to align title and nav horizontally */
+.nav-container {
+    display: flex;
+    justify-content: space-between; /* Pushes title left, nav right */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Remove default bullet points from the list */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px; /* Space between menu items */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the links */
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #d4af37; /* Gold color on hover */
+}
+
+/* Responsive fix: If the screen is small, stack them */
+@media (max-width: 600px) {
+    .nav-container {
+        flex-direction: column;
+    }
+    .nav-links {
+        margin-top: 20px;
+    }
+}
