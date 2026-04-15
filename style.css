@@ -118,4 +118,14 @@ body {
     font-weight: bold;
 }
 
+/* Styling for Product Images */
+.product-image {
+    width: 100%;       /* Makes image take up full card width */
+    height: 200px;     /* Sets a consistent height */
+    object-fit: cover; /* Crops the image perfectly without stretching it */
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #d4af37; /* Adds a thin gold border around the photo */
+}
+
 footer { background: #1a1a1a; color: #777; padding: 40px; text-align: center; font-size: 0.8rem; }
